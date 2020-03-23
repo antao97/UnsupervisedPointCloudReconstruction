@@ -56,34 +56,38 @@ A cloud of points corresponding to a shape can also be thought of as samples fro
 
 In all experiments, we follow the training scheme of FoldingNet.
 
-Note that other than using the modified Chamfer distance in FoldingNet paper, we adopt the original Chamfer distance proposed by [A Point Set Generation Network for 3D Object Reconstruction from a Single Image](https://arxiv.xilesou.top/pdf/1612.00603.pdf):
+**Note that:** 
+
+- Other than using the modified Chamfer distance in FoldingNet paper, we adopt the original Chamfer distance proposed by [A Point Set Generation Network for 3D Object Reconstruction from a Single Image](https://arxiv.xilesou.top/pdf/1612.00603.pdf):
 
 <p float="left">
     <img src="image/distance.png" width="410" hspace="200"/>
 </p>
 
-To train the network, run
+- To use the local covariance proposed in FoldingNet paper, pleanse comment line 49 and uncomment line 50 in `model.py`. See this [issue](issues/1) for detailed information.
+
+**To train the network, run**
 ```
 python main.py --exp_name <exp name> --dataset_root <root directory for datasets> --encoder <foldnet | dgcnn_cls | dgcnn_seg> --k <16 | 20 | 40> --shape <plane | sphere | gaussian> --dataset shapenetcorev2 --gpu <gpu ids>
 ```
 
 You can download our already trained models from [[Dropbox]](https://www.dropbox.com/sh/ypssm2oq2omznx9/AABSRqcEN1o6wn5ruaK_bGNMa?dl=0) or [[BaiduDisk]](https://pan.baidu.com/s/1FDNgZnrkCGqbQzH-CM6uBw) and place them under `snapshot/`.
 
-To evaluate the performance of a given trained model, run
+**To evaluate the performance of a given trained model, run**
 ```
 python main.py --eval --model_path <model path> --dataset_root <root directory for datasets> --encoder <foldnet | dgcnn_cls | dgcnn_seg> --k <16 | 20 | 40> --shape <plane | sphere | gaussian> --dataset <shapenetcorev2 | modelnet40> --batch_size 4 --gpu <gpu ids> 
 ```
 
 Use `--no_cuda` if you want to run in CPU.
 
-To visulize the reconstruction performance, run
+**To visulize the reconstruction performance, run**
 ```
 python visualization.py --dataset_root <root directory for datasets> --dataset <modelnet40 | shapenetcorev2> --item=<index for data> --split <train | test> --encoder <foldnet | dgcnn_cls | dgcnn_seg> --k <16 | 20 | 40> --shape <plane | sphere | gaussian> --model_path=snapshot/<exp name>/models --draw_original --draw_source_points
 ```
 
 Our script generates XML files and you are required to use [Mitsuba](https://www.mitsuba-renderer.org/index.html) to render them.
 
-To use Tensorboard, run 
+**To use Tensorboard, run**
 ```
 tensorboard --logdir tensorboard --bind_all
 ```

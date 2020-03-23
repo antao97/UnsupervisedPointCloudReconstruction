@@ -4,7 +4,7 @@
 @Author: An Tao
 @Contact: ta19@mails.tsinghua.edu.cn
 @File: model.py
-@Time: 2020/1/2 10:26 AM
+@Time: 2020/3/23 5:39 PM
 """
 
 import torch
@@ -47,7 +47,9 @@ def local_cov(pts, idx):
     x = x.view(batch_size, num_points, -1, num_dims)        # (batch_size, num_points, k, 3)
 
     x = torch.matmul(x[:,:,0].unsqueeze(3), x[:,:,1].unsqueeze(2))  # (batch_size, num_points, 3, 1) * (batch_size, num_points, 1, 3) -> (batch_size, num_points, 3, 3)
+    # x = torch.matmul(x[:,:,1:].transpose(3, 2), x[:,:,1:])
     x = x.view(batch_size, num_points, 9).transpose(2, 1)   # (batch_size, 9, num_points)
+
     x = torch.cat((pts, x), dim=1)                          # (batch_size, 12, num_points)
 
     return x
@@ -91,7 +93,7 @@ class DGCNN_Cls_Encoder(nn.Module):
     def __init__(self, args):
         super(DGCNN_Cls_Encoder, self).__init__()
         if args.k == None:
-            self.k = 40
+            self.k = 20
         else:
             self.k = args.k
         self.task = args.task
@@ -201,7 +203,7 @@ class DGCNN_Seg_Encoder(nn.Module):
     def __init__(self, args):
         super(DGCNN_Seg_Encoder, self).__init__()
         if args.k == None:
-            self.k = 40
+            self.k = 20
         else:
             self.k = args.k
         self.transform_net = Point_Transform_Net()
@@ -310,7 +312,7 @@ class FoldNet_Encoder(nn.Module):
         pts = pts.transpose(2, 1)               # (batch_size, 3, num_points)
         idx = knn(pts, k=self.k)
         x = local_cov(pts, idx)                 # (batch_size, 3, num_points) -> (batch_size, 12, num_points])            
-        x = self.mlp1(x)                        # (batch_size, 12, num_points) -> (batch_size, 64, num_points])    
+        x = self.mlp1(x)                        # (batch_size, 12, num_points) -> (batch_size, 64, num_points])
         x = self.graph_layer(x, idx)            # (batch_size, 64, num_points) -> (batch_size, 1024, num_points)
         x = torch.max(x, 2, keepdim=True)[0]    # (batch_size, 1024, num_points) -> (batch_size, 1024, 1)
         x = self.mlp2(x)                        # (batch_size, 1024, 1) -> (batch_size, feat_dims, 1)
