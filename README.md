@@ -185,9 +185,9 @@ Models are all trained in ShapeNetCore dataset and transfered into ModelNet40 da
 </p>
 
 ### ShapeNetCore.v2 dataset
-&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Original&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;DGCNN_Cls (K20)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;DGCNN_Seg (K20)
+&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Original&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;DGCNN_Cls (K20)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;DGCNN_Seg (K20)
 
-&emsp;&ensp;Input&emsp;&emsp;&emsp;Plane&emsp;&emsp;&ensp;Sphere&emsp;&emsp;Gaussian&emsp;&ensp;Plane&emsp;&emsp;&ensp;Sphere&emsp;&emsp;Gaussian&emsp;&emsp;Plane&emsp;&emsp;&ensp;Sphere&emsp;&emsp;Gaussian
+&emsp;Input&emsp;&emsp;Plane&emsp;&emsp;Sphere&emsp;&emsp;Gaussian&emsp;Plane&emsp;&emsp;Sphere&emsp;&emsp;Gaussian&emsp;&emsp;Plane&emsp;&emsp;Sphere&emsp;&ensp;Gaussian
 <p float="left">
     <img src="image/input/shapenetcorev2_train16_airplane_orign.jpg" width="73"/>
     <img src="image/original_plane/shapenetcorev2_278_shapenetcorev2_train16_airplane.jpg" width="73"/>
@@ -276,86 +276,86 @@ Models are all trained in ShapeNetCore dataset and transfered into ModelNet40 da
 
 &emsp;&ensp;Input&emsp;&emsp;&emsp;Plane&emsp;&emsp;&ensp;Sphere&emsp;&emsp;Gaussian&emsp;&ensp;Plane&emsp;&emsp;&ensp;Sphere&emsp;&emsp;Gaussian&emsp;&emsp;Plane&emsp;&emsp;&ensp;Sphere&emsp;&emsp;Gaussian
 <p float="left">
-    <img src="image/input/modelnet40_train11_airplane_orign.jpg" width="83"/>
-    <img src="image/original_plane/shapenetcorev2_278_modelnet40_train11_airplane.jpg" width="83"/>
-    <img src="image/original_sphere/shapenetcorev2_278_modelnet40_train11_airplane.jpg" width="83"/>
-    <img src="image/original_gaussian/shapenetcorev2_278_modelnet40_train11_airplane.jpg" width="83"/>
-    <img src="image/dgcnn_cls_plane/shapenetcorev2_250_modelnet40_train11_airplane.jpg" width="83"/>
-    <img src="image/dgcnn_cls_sphere/shapenetcorev2_250_modelnet40_train11_airplane.jpg" width="83"/>
-    <img src="image/dgcnn_cls_gaussian/shapenetcorev2_250_modelnet40_train11_airplane.jpg" width="83"/>
-    <img src="image/dgcnn_seg_plane/shapenetcorev2_290_modelnet40_train11_airplane.jpg" width="83"/>
-    <img src="image/dgcnn_seg_sphere/shapenetcorev2_290_modelnet40_train11_airplane.jpg" width="83"/>
-    <img src="image/dgcnn_seg_gaussian/shapenetcorev2_290_modelnet40_train11_airplane.jpg" width="83"/>
-    <img src="image/input/modelnet40_train12_chair_orign.jpg" width="83"/>
-    <img src="image/original_plane/shapenetcorev2_278_modelnet40_train12_chair.jpg" width="83"/>
-    <img src="image/original_sphere/shapenetcorev2_278_modelnet40_train12_chair.jpg" width="83"/>
-    <img src="image/original_gaussian/shapenetcorev2_278_modelnet40_train12_chair.jpg" width="83"/>
-    <img src="image/dgcnn_cls_plane/shapenetcorev2_250_modelnet40_train12_chair.jpg" width="83"/>
-    <img src="image/dgcnn_cls_sphere/shapenetcorev2_250_modelnet40_train12_chair.jpg" width="83"/>
-    <img src="image/dgcnn_cls_gaussian/shapenetcorev2_250_modelnet40_train12_chair.jpg" width="83"/>
-    <img src="image/dgcnn_seg_plane/shapenetcorev2_290_modelnet40_train12_chair.jpg" width="83"/>
-    <img src="image/dgcnn_seg_sphere/shapenetcorev2_290_modelnet40_train12_chair.jpg" width="83"/>
-    <img src="image/dgcnn_seg_gaussian/shapenetcorev2_290_modelnet40_train12_chair.jpg" width="83"/>
-    <img src="image/input/modelnet40_train7_vase_orign.jpg" width="83"/>
-    <img src="image/original_plane/shapenetcorev2_278_modelnet40_train7_vase.jpg" width="83"/>
-    <img src="image/original_sphere/shapenetcorev2_278_modelnet40_train7_vase.jpg" width="83"/>
-    <img src="image/original_gaussian/shapenetcorev2_278_modelnet40_train7_vase.jpg" width="83"/>
-    <img src="image/dgcnn_cls_plane/shapenetcorev2_250_modelnet40_train7_vase.jpg" width="83"/>
-    <img src="image/dgcnn_cls_sphere/shapenetcorev2_250_modelnet40_train7_vase.jpg" width="83"/>
-    <img src="image/dgcnn_cls_gaussian/shapenetcorev2_250_modelnet40_train7_vase.jpg" width="83"/>
-    <img src="image/dgcnn_seg_plane/shapenetcorev2_290_modelnet40_train7_vase.jpg" width="83"/>
-    <img src="image/dgcnn_seg_sphere/shapenetcorev2_290_modelnet40_train7_vase.jpg" width="83"/>
-    <img src="image/dgcnn_seg_gaussian/shapenetcorev2_290_modelnet40_train7_vase.jpg" width="83"/>
-    <img src="image/input/modelnet40_train16_table_orign.jpg" width="83"/>
-    <img src="image/original_plane/shapenetcorev2_278_modelnet40_train16_table.jpg" width="83"/>
-    <img src="image/original_sphere/shapenetcorev2_278_modelnet40_train16_table.jpg" width="83"/>
-    <img src="image/original_gaussian/shapenetcorev2_278_modelnet40_train16_table.jpg" width="83"/>
-    <img src="image/dgcnn_cls_plane/shapenetcorev2_250_modelnet40_train16_table.jpg" width="83"/>
-    <img src="image/dgcnn_cls_sphere/shapenetcorev2_250_modelnet40_train16_table.jpg" width="83"/>
-    <img src="image/dgcnn_cls_gaussian/shapenetcorev2_250_modelnet40_train16_table.jpg" width="83"/>
-    <img src="image/dgcnn_seg_plane/shapenetcorev2_290_modelnet40_train16_table.jpg" width="83"/>
-    <img src="image/dgcnn_seg_sphere/shapenetcorev2_290_modelnet40_train16_table.jpg" width="83"/>
-    <img src="image/dgcnn_seg_gaussian/shapenetcorev2_290_modelnet40_train16_table.jpg" width="83"/>
-    <img src="image/input/modelnet40_train0_laptop_orign.jpg" width="83"/>
-    <img src="image/original_plane/shapenetcorev2_278_modelnet40_train0_laptop.jpg" width="83"/>
-    <img src="image/original_sphere/shapenetcorev2_278_modelnet40_train0_laptop.jpg" width="83"/>
-    <img src="image/original_gaussian/shapenetcorev2_278_modelnet40_train0_laptop.jpg" width="83"/>
-    <img src="image/dgcnn_cls_plane/shapenetcorev2_250_modelnet40_train0_laptop.jpg" width="83"/>
-    <img src="image/dgcnn_cls_sphere/shapenetcorev2_250_modelnet40_train0_laptop.jpg" width="83"/>
-    <img src="image/dgcnn_cls_gaussian/shapenetcorev2_250_modelnet40_train0_laptop.jpg" width="83"/>
-    <img src="image/dgcnn_seg_plane/shapenetcorev2_290_modelnet40_train0_laptop.jpg" width="83"/>
-    <img src="image/dgcnn_seg_sphere/shapenetcorev2_290_modelnet40_train0_laptop.jpg" width="83"/>
-    <img src="image/dgcnn_seg_gaussian/shapenetcorev2_290_modelnet40_train0_laptop.jpg" width="83"/>
-    <img src="image/input/modelnet40_train19_bench_orign.jpg" width="83"/>
-    <img src="image/original_plane/shapenetcorev2_278_modelnet40_train19_bench.jpg" width="83"/>
-    <img src="image/original_sphere/shapenetcorev2_278_modelnet40_train19_bench.jpg" width="83"/>
-    <img src="image/original_gaussian/shapenetcorev2_278_modelnet40_train19_bench.jpg" width="83"/>
-    <img src="image/dgcnn_cls_plane/shapenetcorev2_250_modelnet40_train19_bench.jpg" width="83"/>
-    <img src="image/dgcnn_cls_sphere/shapenetcorev2_250_modelnet40_train19_bench.jpg" width="83"/>
-    <img src="image/dgcnn_cls_gaussian/shapenetcorev2_250_modelnet40_train19_bench.jpg" width="83"/>
-    <img src="image/dgcnn_seg_plane/shapenetcorev2_290_modelnet40_train19_bench.jpg" width="83"/>
-    <img src="image/dgcnn_seg_sphere/shapenetcorev2_290_modelnet40_train19_bench.jpg" width="83"/>
-    <img src="image/dgcnn_seg_gaussian/shapenetcorev2_290_modelnet40_train19_bench.jpg" width="83"/>
-    <img src="image/input/modelnet40_train10_bookshelf_orign.jpg" width="83"/>
-    <img src="image/original_plane/shapenetcorev2_278_modelnet40_train10_bookshelf.jpg" width="83"/>
-    <img src="image/original_sphere/shapenetcorev2_278_modelnet40_train10_bookshelf.jpg" width="83"/>
-    <img src="image/original_gaussian/shapenetcorev2_278_modelnet40_train10_bookshelf.jpg" width="83"/>
-    <img src="image/dgcnn_cls_plane/shapenetcorev2_250_modelnet40_train10_bookshelf.jpg" width="83"/>
-    <img src="image/dgcnn_cls_sphere/shapenetcorev2_250_modelnet40_train10_bookshelf.jpg" width="83"/>
-    <img src="image/dgcnn_cls_gaussian/shapenetcorev2_250_modelnet40_train10_bookshelf.jpg" width="83"/>
-    <img src="image/dgcnn_seg_plane/shapenetcorev2_290_modelnet40_train10_bookshelf.jpg" width="83"/>
-    <img src="image/dgcnn_seg_sphere/shapenetcorev2_290_modelnet40_train10_bookshelf.jpg" width="83"/>
-    <img src="image/dgcnn_seg_gaussian/shapenetcorev2_290_modelnet40_train10_bookshelf.jpg" width="83"/>
-    <img src="image/input/modelnet40_train14_plant_orign.jpg" width="83"/>
-    <img src="image/original_plane/shapenetcorev2_278_modelnet40_train14_plant.jpg" width="83"/>
-    <img src="image/original_sphere/shapenetcorev2_278_modelnet40_train14_plant.jpg" width="83"/>
-    <img src="image/original_gaussian/shapenetcorev2_278_modelnet40_train14_plant.jpg" width="83"/>
-    <img src="image/dgcnn_cls_plane/shapenetcorev2_250_modelnet40_train14_plant.jpg" width="83"/>
-    <img src="image/dgcnn_cls_sphere/shapenetcorev2_250_modelnet40_train14_plant.jpg" width="83"/>
-    <img src="image/dgcnn_cls_gaussian/shapenetcorev2_250_modelnet40_train14_plant.jpg" width="83"/>
-    <img src="image/dgcnn_seg_plane/shapenetcorev2_290_modelnet40_train14_plant.jpg" width="83"/>
-    <img src="image/dgcnn_seg_sphere/shapenetcorev2_290_modelnet40_train14_plant.jpg" width="83"/>
-    <img src="image/dgcnn_seg_gaussian/shapenetcorev2_290_modelnet40_train14_plant.jpg" width="83"/>
+    <img src="image/input/modelnet40_train11_airplane_orign.jpg" width="73"/>
+    <img src="image/original_plane/shapenetcorev2_278_modelnet40_train11_airplane.jpg" width="73"/>
+    <img src="image/original_sphere/shapenetcorev2_278_modelnet40_train11_airplane.jpg" width="73"/>
+    <img src="image/original_gaussian/shapenetcorev2_278_modelnet40_train11_airplane.jpg" width="73"/>
+    <img src="image/dgcnn_cls_plane/shapenetcorev2_250_modelnet40_train11_airplane.jpg" width="73"/>
+    <img src="image/dgcnn_cls_sphere/shapenetcorev2_250_modelnet40_train11_airplane.jpg" width="73"/>
+    <img src="image/dgcnn_cls_gaussian/shapenetcorev2_250_modelnet40_train11_airplane.jpg" width="73"/>
+    <img src="image/dgcnn_seg_plane/shapenetcorev2_290_modelnet40_train11_airplane.jpg" width="73"/>
+    <img src="image/dgcnn_seg_sphere/shapenetcorev2_290_modelnet40_train11_airplane.jpg" width="73"/>
+    <img src="image/dgcnn_seg_gaussian/shapenetcorev2_290_modelnet40_train11_airplane.jpg" width="73"/>
+    <img src="image/input/modelnet40_train12_chair_orign.jpg" width="73"/>
+    <img src="image/original_plane/shapenetcorev2_278_modelnet40_train12_chair.jpg" width="73"/>
+    <img src="image/original_sphere/shapenetcorev2_278_modelnet40_train12_chair.jpg" width="73"/>
+    <img src="image/original_gaussian/shapenetcorev2_278_modelnet40_train12_chair.jpg" width="73"/>
+    <img src="image/dgcnn_cls_plane/shapenetcorev2_250_modelnet40_train12_chair.jpg" width="73"/>
+    <img src="image/dgcnn_cls_sphere/shapenetcorev2_250_modelnet40_train12_chair.jpg" width="73"/>
+    <img src="image/dgcnn_cls_gaussian/shapenetcorev2_250_modelnet40_train12_chair.jpg" width="73"/>
+    <img src="image/dgcnn_seg_plane/shapenetcorev2_290_modelnet40_train12_chair.jpg" width="73"/>
+    <img src="image/dgcnn_seg_sphere/shapenetcorev2_290_modelnet40_train12_chair.jpg" width="73"/>
+    <img src="image/dgcnn_seg_gaussian/shapenetcorev2_290_modelnet40_train12_chair.jpg" width="73"/>
+    <img src="image/input/modelnet40_train7_vase_orign.jpg" width="73"/>
+    <img src="image/original_plane/shapenetcorev2_278_modelnet40_train7_vase.jpg" width="73"/>
+    <img src="image/original_sphere/shapenetcorev2_278_modelnet40_train7_vase.jpg" width="73"/>
+    <img src="image/original_gaussian/shapenetcorev2_278_modelnet40_train7_vase.jpg" width="73"/>
+    <img src="image/dgcnn_cls_plane/shapenetcorev2_250_modelnet40_train7_vase.jpg" width="73"/>
+    <img src="image/dgcnn_cls_sphere/shapenetcorev2_250_modelnet40_train7_vase.jpg" width="73"/>
+    <img src="image/dgcnn_cls_gaussian/shapenetcorev2_250_modelnet40_train7_vase.jpg" width="73"/>
+    <img src="image/dgcnn_seg_plane/shapenetcorev2_290_modelnet40_train7_vase.jpg" width="73"/>
+    <img src="image/dgcnn_seg_sphere/shapenetcorev2_290_modelnet40_train7_vase.jpg" width="73"/>
+    <img src="image/dgcnn_seg_gaussian/shapenetcorev2_290_modelnet40_train7_vase.jpg" width="73"/>
+    <img src="image/input/modelnet40_train16_table_orign.jpg" width="73"/>
+    <img src="image/original_plane/shapenetcorev2_278_modelnet40_train16_table.jpg" width="73"/>
+    <img src="image/original_sphere/shapenetcorev2_278_modelnet40_train16_table.jpg" width="73"/>
+    <img src="image/original_gaussian/shapenetcorev2_278_modelnet40_train16_table.jpg" width="73"/>
+    <img src="image/dgcnn_cls_plane/shapenetcorev2_250_modelnet40_train16_table.jpg" width="73"/>
+    <img src="image/dgcnn_cls_sphere/shapenetcorev2_250_modelnet40_train16_table.jpg" width="73"/>
+    <img src="image/dgcnn_cls_gaussian/shapenetcorev2_250_modelnet40_train16_table.jpg" width="73"/>
+    <img src="image/dgcnn_seg_plane/shapenetcorev2_290_modelnet40_train16_table.jpg" width="73"/>
+    <img src="image/dgcnn_seg_sphere/shapenetcorev2_290_modelnet40_train16_table.jpg" width="73"/>
+    <img src="image/dgcnn_seg_gaussian/shapenetcorev2_290_modelnet40_train16_table.jpg" width="73"/>
+    <img src="image/input/modelnet40_train0_laptop_orign.jpg" width="73"/>
+    <img src="image/original_plane/shapenetcorev2_278_modelnet40_train0_laptop.jpg" width="73"/>
+    <img src="image/original_sphere/shapenetcorev2_278_modelnet40_train0_laptop.jpg" width="73"/>
+    <img src="image/original_gaussian/shapenetcorev2_278_modelnet40_train0_laptop.jpg" width="73"/>
+    <img src="image/dgcnn_cls_plane/shapenetcorev2_250_modelnet40_train0_laptop.jpg" width="73"/>
+    <img src="image/dgcnn_cls_sphere/shapenetcorev2_250_modelnet40_train0_laptop.jpg" width="73"/>
+    <img src="image/dgcnn_cls_gaussian/shapenetcorev2_250_modelnet40_train0_laptop.jpg" width="73"/>
+    <img src="image/dgcnn_seg_plane/shapenetcorev2_290_modelnet40_train0_laptop.jpg" width="73"/>
+    <img src="image/dgcnn_seg_sphere/shapenetcorev2_290_modelnet40_train0_laptop.jpg" width="73"/>
+    <img src="image/dgcnn_seg_gaussian/shapenetcorev2_290_modelnet40_train0_laptop.jpg" width="73"/>
+    <img src="image/input/modelnet40_train19_bench_orign.jpg" width="73"/>
+    <img src="image/original_plane/shapenetcorev2_278_modelnet40_train19_bench.jpg" width="73"/>
+    <img src="image/original_sphere/shapenetcorev2_278_modelnet40_train19_bench.jpg" width="73"/>
+    <img src="image/original_gaussian/shapenetcorev2_278_modelnet40_train19_bench.jpg" width="73"/>
+    <img src="image/dgcnn_cls_plane/shapenetcorev2_250_modelnet40_train19_bench.jpg" width="73"/>
+    <img src="image/dgcnn_cls_sphere/shapenetcorev2_250_modelnet40_train19_bench.jpg" width="73"/>
+    <img src="image/dgcnn_cls_gaussian/shapenetcorev2_250_modelnet40_train19_bench.jpg" width="73"/>
+    <img src="image/dgcnn_seg_plane/shapenetcorev2_290_modelnet40_train19_bench.jpg" width="73"/>
+    <img src="image/dgcnn_seg_sphere/shapenetcorev2_290_modelnet40_train19_bench.jpg" width="73"/>
+    <img src="image/dgcnn_seg_gaussian/shapenetcorev2_290_modelnet40_train19_bench.jpg" width="73"/>
+    <img src="image/input/modelnet40_train10_bookshelf_orign.jpg" width="73"/>
+    <img src="image/original_plane/shapenetcorev2_278_modelnet40_train10_bookshelf.jpg" width="73"/>
+    <img src="image/original_sphere/shapenetcorev2_278_modelnet40_train10_bookshelf.jpg" width="73"/>
+    <img src="image/original_gaussian/shapenetcorev2_278_modelnet40_train10_bookshelf.jpg" width="73"/>
+    <img src="image/dgcnn_cls_plane/shapenetcorev2_250_modelnet40_train10_bookshelf.jpg" width="73"/>
+    <img src="image/dgcnn_cls_sphere/shapenetcorev2_250_modelnet40_train10_bookshelf.jpg" width="73"/>
+    <img src="image/dgcnn_cls_gaussian/shapenetcorev2_250_modelnet40_train10_bookshelf.jpg" width="73"/>
+    <img src="image/dgcnn_seg_plane/shapenetcorev2_290_modelnet40_train10_bookshelf.jpg" width="73"/>
+    <img src="image/dgcnn_seg_sphere/shapenetcorev2_290_modelnet40_train10_bookshelf.jpg" width="73"/>
+    <img src="image/dgcnn_seg_gaussian/shapenetcorev2_290_modelnet40_train10_bookshelf.jpg" width="73"/>
+    <img src="image/input/modelnet40_train14_plant_orign.jpg" width="73"/>
+    <img src="image/original_plane/shapenetcorev2_278_modelnet40_train14_plant.jpg" width="73"/>
+    <img src="image/original_sphere/shapenetcorev2_278_modelnet40_train14_plant.jpg" width="73"/>
+    <img src="image/original_gaussian/shapenetcorev2_278_modelnet40_train14_plant.jpg" width="73"/>
+    <img src="image/dgcnn_cls_plane/shapenetcorev2_250_modelnet40_train14_plant.jpg" width="73"/>
+    <img src="image/dgcnn_cls_sphere/shapenetcorev2_250_modelnet40_train14_plant.jpg" width="73"/>
+    <img src="image/dgcnn_cls_gaussian/shapenetcorev2_250_modelnet40_train14_plant.jpg" width="73"/>
+    <img src="image/dgcnn_seg_plane/shapenetcorev2_290_modelnet40_train14_plant.jpg" width="73"/>
+    <img src="image/dgcnn_seg_sphere/shapenetcorev2_290_modelnet40_train14_plant.jpg" width="73"/>
+    <img src="image/dgcnn_seg_gaussian/shapenetcorev2_290_modelnet40_train14_plant.jpg" width="73"/>
 </p>
 
 &nbsp;
