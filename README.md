@@ -187,7 +187,7 @@ Models are all trained in ShapeNetCore dataset and transfered into ModelNet40 da
 ### ShapeNetCore.v2 dataset
 &emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Original&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;DGCNN_Cls (K20)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;DGCNN_Seg (K20)
 
-&emsp;Input&emsp;&emsp;&ensp;Plane&emsp;&emsp;Sphere&emsp;&ensp;Gaussian&emsp;Plane&emsp;&emsp;Sphere&emsp;&ensp;Gaussian&emsp;&ensp;Plane&emsp;&emsp;Sphere&emsp;&ensp;Gaussian
+&emsp;Input&emsp;&emsp;&ensp;Plane&emsp;&ensp;Sphere&emsp;&ensp;Gaussian&emsp;Plane&emsp;&emsp;Sphere&emsp;&ensp;Gaussian&emsp;&ensp;Plane&emsp;&emsp;Sphere&emsp;&ensp;Gaussian
 <p float="left">
     <img src="image/input/shapenetcorev2_train16_airplane_orign.jpg" width="73"/>
     <img src="image/original_plane/shapenetcorev2_278_shapenetcorev2_train16_airplane.jpg" width="73"/>
@@ -272,9 +272,9 @@ Models are all trained in ShapeNetCore dataset and transfered into ModelNet40 da
 </p>
 
 ### ModelNet40 dataset
-&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Original&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;DGCNN_Cls (K20)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;DGCNN_Seg (K20)
+&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Original&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;DGCNN_Cls (K20)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;DGCNN_Seg (K20)
 
-&emsp;&ensp;Input&emsp;&emsp;&emsp;Plane&emsp;&emsp;&ensp;Sphere&emsp;&emsp;Gaussian&emsp;&ensp;Plane&emsp;&emsp;&ensp;Sphere&emsp;&emsp;Gaussian&emsp;&emsp;Plane&emsp;&emsp;&ensp;Sphere&emsp;&emsp;Gaussian
+&emsp;Input&emsp;&emsp;&ensp;Plane&emsp;&ensp;Sphere&emsp;&ensp;Gaussian&emsp;Plane&emsp;&emsp;Sphere&emsp;&ensp;Gaussian&emsp;&ensp;Plane&emsp;&emsp;Sphere&emsp;&ensp;Gaussian
 <p float="left">
     <img src="image/input/modelnet40_train11_airplane_orign.jpg" width="73"/>
     <img src="image/original_plane/shapenetcorev2_278_modelnet40_train11_airplane.jpg" width="73"/>
