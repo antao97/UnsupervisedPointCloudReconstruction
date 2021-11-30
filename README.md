@@ -39,8 +39,8 @@ For more our works on point cloud feature learning, see this [repo](https://gith
 ## Download datasets
 Download the HDF5 format datasets (where each shape is sampled 2,048 points uniformly):
 
-- ShapeNetCore.v2 (0.98G)&ensp;[[Dropbox]](https://www.dropbox.com/s/cszkbla2pgglapb/shapenetcorev2_hdf5_2048.zip?dl=0)&ensp;[[BaiduDisk]](https://pan.baidu.com/s/154As2kzHZczMipuoZIc0kg)
-- ModelNet40 (194M)&ensp;[[Dropbox]](https://www.dropbox.com/s/ea4arug1itihb8f/modelnet40_hdf5_2048.zip?dl=0)&ensp;[[BaiduDisk]](https://pan.baidu.com/s/1NQZgN8tvHVqQntxefcdVAg)
+- ShapeNetCore.v2 (0.98G)&ensp;[[TsinghuaCloud]](https://cloud.tsinghua.edu.cn/f/06a3c383dc474179b97d/)&ensp;[[BaiduDisk]](https://pan.baidu.com/s/154As2kzHZczMipuoZIc0kg)
+- ModelNet40 (194M)&ensp;[[TsinghuaCloud]](https://cloud.tsinghua.edu.cn/f/b3d9fe3e2a514def8097/)&ensp;[[BaiduDisk]](https://pan.baidu.com/s/1NQZgN8tvHVqQntxefcdVAg)
 
 You can find more details about the above datasets in this [repo](https://github.com/AnTao97/PointCloudDatasets).
 
@@ -71,7 +71,7 @@ In all experiments, we follow the training scheme of FoldingNet.
 python main.py --exp_name <exp name> --dataset_root <root directory for datasets> --encoder <foldnet | dgcnn_cls | dgcnn_seg> --k <16 | 20 | 40> --shape <plane | sphere | gaussian> --dataset shapenetcorev2 --gpu <gpu ids>
 ```
 
-You can download our already trained models from [[Dropbox]](https://www.dropbox.com/sh/ypssm2oq2omznx9/AABSRqcEN1o6wn5ruaK_bGNMa?dl=0) or [[BaiduDisk]](https://pan.baidu.com/s/1FDNgZnrkCGqbQzH-CM6uBw) and place them under `snapshot/`.
+You can download our already trained models from [[TsinghuaCloud]](https://cloud.tsinghua.edu.cn/d/835fb3e4b7dd43e88c1e/) or [[BaiduDisk]](https://pan.baidu.com/s/1FDNgZnrkCGqbQzH-CM6uBw) and place them under `snapshot/`.
 
 **To evaluate the performance of a given trained model, run**
 ```
@@ -152,7 +152,7 @@ If you want to run this experiment, just run
 python main.py --eval --dataset_root <root directory for datasets> --encoder dgcnn_cls --k <16 | 20 | 40> --dataset <shapenetcorev2 | modelnet40> --gpu <gpu ids> 
 ```
 
-### Compare to other unsupervised feature learning models 
+### Compare to other unsupervised feature learning models
 
 Models are all trained in ShapeNetCore dataset and transfered into ModelNet40 dataset.
 
@@ -412,7 +412,7 @@ All networks run well in low curvature smooth surface, but fail in not different
 From both visualized results and avg CD sorces, the overall reconstruction performance of ShapeNetCore.v2 dataset (training dataset) is better than ModelNet40 dataset (transfer dataset).
 
 &nbsp;
-#### Reference repos:  
+#### Reference repos:
 
 - [FoldingNet](http://www.merl.com/research/license#FoldingNet)  
 - [XuyangBai/FoldingNet](https://github.com/XuyangBai/FoldingNet)  
