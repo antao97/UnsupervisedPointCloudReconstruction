@@ -22,11 +22,10 @@ If you find this work useful, please cite:
 @article{tao2020,
       Author = {An Tao},
       Title = {Unsupervised Point Cloud Reconstruction for Classific Feature Learning},
-      Journal = {https://github.com/AnTao97/UnsupervisedPointCloudReconstruction},
+      Journal = {https://github.com/antao97/UnsupervisedPointCloudReconstruction},
       Year = {2020}
 }
 ```
-For more our works on point cloud feature learning, see this [repo](https://github.com/AnTao97/PointCloudFeatureLearning).
 
 &nbsp;
 ## Requirements
