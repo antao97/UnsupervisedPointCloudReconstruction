@@ -42,7 +42,7 @@ Download the HDF5 format datasets (where each shape is sampled 2,048 points unif
 - ShapeNetCore.v2 (0.98G)&ensp;[[TsinghuaCloud]](https://cloud.tsinghua.edu.cn/f/06a3c383dc474179b97d/)&ensp;[[BaiduDisk]](https://pan.baidu.com/s/154As2kzHZczMipuoZIc0kg)
 - ModelNet40 (194M)&ensp;[[TsinghuaCloud]](https://cloud.tsinghua.edu.cn/f/b3d9fe3e2a514def8097/)&ensp;[[BaiduDisk]](https://pan.baidu.com/s/1NQZgN8tvHVqQntxefcdVAg)
 
-You can find more details about the above datasets in this [repo](https://github.com/AnTao97/PointCloudDatasets).
+You can find more details about the above datasets in this [repo](https://github.com/antao97/PointCloudDatasets).
 
 &nbsp;
 ## Experiment settings
@@ -417,5 +417,5 @@ From both visualized results and avg CD sorces, the overall reconstruction perfo
 - [FoldingNet](http://www.merl.com/research/license#FoldingNet)  
 - [XuyangBai/FoldingNet](https://github.com/XuyangBai/FoldingNet)  
 - [WangYueFt/dgcnn](https://github.com/WangYueFt/dgcnn)  
-- [AnTao97/PointCloudDatasets](https://github.com/AnTao97/PointCloudDatasets)
+- [antao97/PointCloudDatasets](https://github.com/antao97/PointCloudDatasets)
 - [zekunhao1995/PointFlowRenderer](https://github.com/zekunhao1995/PointFlowRenderer)
